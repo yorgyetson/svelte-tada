@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
 	import { Client, cacheExchange, setContextClient, fetchExchange } from '@urql/svelte';
 
 	const client = new Client({
